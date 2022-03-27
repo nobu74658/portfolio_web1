@@ -1,0 +1,277 @@
+<!--//////////////////////////////////////
+   以下のサイトを再現させていただきました。
+      https://www.yamasaki-mfg.com/ 
+    //////////////////////////////////////-->
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>-株式会社信田工業- ホームページ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/1805207c4b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <script src="slick/slick.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="globalnav">
+        <div>
+          <p><a href="">株式会社 信田工業</a></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">当社の強み</a></li>
+            <li><a href="">事業案内</a></li>
+            <li><a href="">製品案内</a></li>
+            <li><a href="">設備紹介</a></li>
+            <li><a href="">会社概要</a></li>
+            <li><a href="">採用情報<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-envelope"></i>お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <div id="humberger">
+          <svg width="40px" height="50px">
+            <rect class="humberger-child" x="0" y="20" width="30" height="2" />
+            <rect class="humberger-child" x="0" y="30" width="30" height="2" />
+            <rect class="humberger-child" x="0" y="40" width="30" height="2" />
+          </svg>
+        </div>
+      </header>
+      <div id="keyvisual">
+        <div class="slider">
+          <div class="slider_item" id="slider-item-1">
+            <img id="key-img1" width="100%" height="840px">
+          </div>
+          <div class="slider_item" id="slider-item-2"><img id="key-img2" width="100%" height="840px"></div>
+          <div class="slider_item" id="slider-item-3"><img id="key-img3" width="100%" height="840px"></div>
+        </div>
+        <div id="keytext">
+          <p id="keytext-effect">ひとつのギアに想いを込める。</p>
+          <p id="keytext-up">MANUFACTURE GEAR WITH THOUGHTS</p>
+        </div>
+        <div id="visualcontroller">
+          <p id="barNumber">01</p>
+          <svg width="120" height="5">
+            <rect x="0" y="0" width="120" height="2" fill="#a9bbd7"/>
+            <rect id="controllerbar" x="0" y="0" height="2" fill="#fff"/>
+          </svg>
+          <p>03</p>
+        </div>
+      </div>
+      <div id="who">
+        <div id="who-img" class="who-effect"></div>
+        <div id="who-text">
+          <p class="who-effect">WHO WE ARE</p>
+          <h1 class="who-effect">
+            多彩な歯車加工を駆使し、<br>
+            小ロットや難課題でも、<br>
+            最高品質のギアを提供します。
+          </h1>
+          <p id="who-des" class="who-effect">
+            ギアには可能性が詰まっています。<br>
+            農耕機の駆動を支える要であったり、<br>
+            産業機械の伝達装置として使われることもあります。<br>
+            小さなギアが大きな力となる。<br>
+            ギアの可能性を信じ、<br>
+            私たちは最高品質のギアをご提供致します。
+          </p>
+          <div class="btn"><svg width="50" height="10">
+            <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+              <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+            </rect>
+            <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+              <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+            </circle>
+          </svg>VIEW MORE</div>
+        </div>
+      </div>
+      <div id="description">
+        <div id="product">
+          <h1>|<br>製品紹介</h1>
+          <h2>PRODUCT</h2>
+          <p>ギア製造をはじめ、多品種少量生産に対応した<br>ものづくりを得意としております。</p>
+          <div class="btn"><svg width="50" height="10">
+            <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+              <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+            </rect>
+            <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+              <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+            </circle>
+          </svg>VIEW MORE</div>
+        </div>
+        <div id="business">
+          <h1>|<br>事業案内</h1>
+          <h2>BUSINESS</h2>
+          <p>材料手配の段階から歯車の製造、後加工の熱処理や<br>表面処理まで当社で一貫して対応いたします。</p>
+          <div class="btn"><svg width="50" height="10">
+            <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+              <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+            </rect>
+            <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+              <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+            </circle>
+          </svg>VIEW MORE</div>
+        </div>
+      </div>
+      <div id="facility">
+        <div id="fac-text">
+          <p class="fac-effect">OUR FACILITY</p>
+          <h1 class="fac-effect">
+            最新の設備や加工法を導入し、<br>
+            高品質のまま短納期・ローコストを実現。
+          </h1>
+          <p id="fac-des">
+            最新設備を導入することで、製造・加工作業を効率化。品質は落とさず、<br>
+            お客様のご要望に合わせた大量生産や24時間稼働体制も可能です。
+          </p>
+          <div id="fac-container">
+            <div id="fac-time">
+              <h1>短納期を実現する</h1>
+              <p id="fac-time-effect">24</p>
+              <p id="fac-time-text">時間<br>稼働体制</p>
+            </div>
+            <div id="fac-ative">
+              <h1>1ヶ月の製造実績</h1>
+              <p id="fac-ative-effect">150000</p>
+              <p id="fac-ative-text">個</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn"><svg width="50" height="10">
+          <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+            <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+          </rect>
+          <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+            <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+          </circle>
+        </svg>VIEW MORE</div>
+        <div id="fac-img" class="fac-effect"></div>
+      </div>
+      <div id="message">
+        <ul>
+          <div id="message-mask-1" class="message-li"></div>
+          <li id="message-li-1" class="message-li">
+            <p>ご挨拶</p>
+          </li>
+          <div id="message-mask-2" class="message-li"></div>
+          <li id="message-li-2" class="message-li">
+            <p>品質管理について</p>
+          </li>
+          <div id="message-mask-3" class="message-li"></div>
+          <li id="message-li-3" class="message-li">
+            <p>よくあるご質問</p>
+          </li>
+        </ul>
+
+        <div id="news-wrapper">
+          <div id="news">
+            <div>
+              <h1>お知らせ</h1>
+              <p>NEWS</p>
+              <div class="btn"><svg width="50" height="10">
+                <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+                  <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+                </rect>
+                <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+                  <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+                </circle>
+              </svg>VIEW ALL</div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="table-date">2020.04.22</td>
+                  <td id="table-tag">お知らせ</td>
+                  <td id="table-text"><a>WEBサイトをリニューアルしました</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+      </div>
+      <div id="recruit">
+        <div id="recruit-mask"></div>
+        <div id="recruit-img"></div>
+        <div id="recruit-text">
+          <h1>|<br>採用情報</h1>
+          <h2>RECRUIT</h2>
+          <p>「モノづくり」に興味のある方、<br>
+            自分だけの「技術」を身につけたい方、<br>
+            私たちを一緒に働きませんか。</p>
+          <div class="btn"><svg width="50" height="10">
+            <rect class="line" x="0" y="4" width="30" height="1" fill="#fff">
+              <animate attributeType="auto" attributeName="width" from="30" to="40" dur="1s" begin="indefinite" />
+            </rect>
+            <circle class="circle" cx="33" cy="4" r="4" fill="#fff">
+              <animate attributeType="auto" attributeName="cx" from="33" to="43" dur="1s" begin="indefinite" />
+            </circle>
+          </svg>VIEW MORE</div>
+        </div>
+      </div>
+      <div id="contact">
+        <div id="contact-head">
+          <p>CONTACT US</p>
+          <h1>お見積もり・お問い合わせはこちらまで</h1>
+        </div>
+        <div id="contact-wrap">
+          <div id="contact-us">
+            <h1><a><i class="fa-solid fa-phone"></i></a>012-345-6789</h1>
+            <p>受付時間8:00-17:00(土日祝日除く)</p>
+          </div>
+          <div class="btn"><i class="fa-regular fa-envelope"></i>メールでのお問い合わせ</div>
+        </div>
+      </div>
+      <footer>
+        <div id="footer-left">
+          <div id="footer-logo">
+            <p id="footer-logo-img"><a href=""></a></p>
+            <p><a href="">株式会社 信田工業</a></p>
+          </div>
+          <p>〒012-3456 東京都東京市東京0-0-0<a href="">>Google map</a></p>
+          <p>TEL:012-345-6789 / FAX:012-345-6789</p>
+          <div id="footer-news">
+            <p><a href="">お知らせ</a></p>
+            <p>|</p>
+            <p><a href="">プライバシーポリシー</a></p>
+          </div>
+        </div>
+        <div id="footer-right">
+          <nav>
+            <ul>
+              <li><a href="">当社の強み</a></li>
+              <li>
+                <a href="">事業案内</a>
+                <ul class="">
+                  <li><a href="">-製造部門</a></li>
+                  <li><a href="">-品質管理部門</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li><a href="">製品案内</a></li>
+              <li><a href="">設備紹介</a></li>
+              <li><a href="">品質管理について</a></li>
+            </ul>
+            <ul>
+              <li><a href="">会社概要</a></li>
+              <li><a href="">よくあるご質問</a></li>
+              <li><a href="">採用情報<i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            </ul>
+          </nav>
+          <p>Copyright ©</p>
+        </div>
+      </footer>    
+    <script src="js/main.js"></script>
+  </body>
+</html>
